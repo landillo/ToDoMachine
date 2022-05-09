@@ -3,8 +3,17 @@ import "./CreateButton.css";
 
 function CreateTodoButton () {
 
+    const onClickButton = () => {
+        alert("aqui iria el modal");
+    }
+
     return (
-        <button className="CreateTodoButton">+</button>
+        <button 
+            className="CreateTodoButton"
+            onClick={ onClickButton }
+        >
+            +
+        </button>
     );
 }
 
