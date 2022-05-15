@@ -29,7 +29,7 @@ const onSubmit = (event) => {
     
     return (
         <form onSubmit={onSubmit}>
-            <label>...</label>
+            <label>Crea una nueva tarea</label>
 
             <textarea 
             value={newTodoValue}

@@ -10,3 +10,12 @@
     align-items: center;
     color: white;
   }
+
+  .modalIn {
+    display:flex;
+    position: absolute;
+    justify-content: center;
+    background-color: deepskyblue;
+    border: 1px solid black;
+
+  }
